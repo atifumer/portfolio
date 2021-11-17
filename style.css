@@ -1,0 +1,484 @@
+                        * {
+                            margin: 0;
+                            padding: 0;
+                            box-sizing: border-box;
+                        }
+                        
+                        body {
+                            font-family: "Montserrat", sans-serif;
+                            background-color: #000!important;
+                            overflow-x: hidden;
+                        }
+                        
+                        .all-main {
+                            width: 100%;
+                            /* height: 100%; */
+                            color: white;
+                        }
+                        
+                        .heading {
+                            padding-top: 50px;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            font-family: Verdana, sans-serif;
+                            letter-spacing: 3px;
+                        }
+                        
+                        .hole {
+                            font-size: 40px;
+                            color: white;
+                        }
+                        
+                        .text {
+                            display: flex;
+                            justify-content: center;
+                            padding-top: 10px;
+                            font-size: 13px;
+                            letter-spacing: 1px;
+                            color: white;
+                        }
+                        
+                        .back {
+                            margin-top: 50px;
+                            display: flex;
+                            justify-content: center;
+                        }
+                        
+                        .img {
+                            width: 50%;
+                            height: 100%;
+                            border-radius: 100px;
+                        }
+                        
+                        .navig {
+                            position: fixed;
+                        }
+                        
+                        .sides {
+                            text-decoration: none;
+                            color: whitesmoke;
+                            font-size: 12px;
+                            font-family: Verdana, sans-serif
+                        }
+                        
+                        .highlight {
+                            width: 50px;
+                            display: flex;
+                            justify-content: center;
+                            flex-direction: column;
+                            align-items: center;
+                        }
+                        
+                        .utiliy {
+                            padding: 20px;
+                            text-align: center;
+                            list-style: none;
+                        }
+                        
+                        .none-home:hover {
+                            background-color: lightgray;
+                        }
+                        
+                        .none-about:hover {
+                            background-color: grey;
+                            opacity: 0.70;
+                        }
+                        
+                        .none-photo:hover {
+                            background-color: grey;
+                            opacity: 0.70;
+                        }
+                        
+                        .none-contact:hover {
+                            background-color: grey;
+                            opacity: 0.70;
+                        }
+                        
+                        .icon {
+                            margin-top: 16px;
+                            margin-bottom: 15px;
+                            font-size: 30px;
+                            margin-left: 5px;
+                        }
+                        
+                        .yoyo {
+                            width: 20px;
+                            /* padding-top: 30px; */
+                        }
+                        
+                        .popo {
+                            width: 120px;
+                            height: 150px;
+                            opacity: 0.55;
+                            border-radius: 20px;
+                        }
+                        
+                        .border {
+                            width: 120px;
+                            height: 800px;
+                            background-color: #222;
+                            border-radius: 12px;
+                        }
+                        
+                        .border:hover {
+                            background-color: black;
+                        }
+                        
+                        .headsec {
+                            width: 80%;
+                            height: 100%;
+                            margin-top: 50px;
+                            margin-left: 250px;
+                            font-size: 25px;
+                            font-family: "Montserrat", sans-serif;
+                        }
+                        
+                        .lines {
+                            margin-top: 20px;
+                            width: 15%;
+                            color: red;
+                        }
+                        
+                        .point {
+                            width: 90%;
+                            margin-top: 20px;
+                            font-size: 17px;
+                            color: #757575!important;
+                        }
+                        
+                        .skill {
+                            margin-top: 30px;
+                        }
+                        
+                        .graph {
+                            margin-top: 20px;
+                            letter-spacing: 5px;
+                            font-size: 15px;
+                            color: #757575!important;
+                        }
+                        
+                        .box11 {
+                            margin-top: 20px;
+                            height: 28px;
+                            width: 95%;
+                            background-color: #616161!important;
+                        }
+                        
+                        .box12 {
+                            height: 28px;
+                            width: 6%;
+                            background-color: white;
+                            float: right;
+                        }
+                        
+                        .Design {
+                            margin-top: 20px;
+                            letter-spacing: 5px;
+                            font-size: 15px;
+                            color: #757575!important;
+                        }
+                        
+                        .box20 {
+                            margin-top: 20px;
+                            height: 28px;
+                            width: 95%;
+                            background-color: #616161!important;
+                        }
+                        
+                        .box30 {
+                            height: 28px;
+                            width: 15%;
+                            background-color: white;
+                            float: right;
+                        }
+                        
+                        .shop {
+                            margin-top: 20px;
+                            letter-spacing: 5px;
+                            font-size: 15px;
+                            color: #757575!important;
+                        }
+                        
+                        .box40 {
+                            margin-top: 20px;
+                            height: 28px;
+                            width: 95%;
+                            background-color: #616161!important;
+                        }
+                        
+                        .box50 {
+                            height: 28px;
+                            width: 20%;
+                            background-color: white;
+                            float: right;
+                        }
+                        
+                        .btn {
+                            margin-top: 50px;
+                        }
+                        
+                        .focus {
+                            width: 18%;
+                            height: 40px;
+                            letter-spacing: 1px;
+                            font-size: 15px;
+                            border: none;
+                        }
+                        
+                        .focus:hover {
+                            background-color: lightgrey;
+                        }
+                        
+                        .reviewMainDiv {
+                            display: flex;
+                            justify-content: space-around;
+                            background-color: #f1f1f1;
+                            color: black;
+                            margin-top: 40px;
+                            text-align: center;
+                            height: 150px;
+                            width: 95%;
+                            align-items: center;
+                            margin-bottom: 10PX;
+                            font-size: 20px;
+                        }
+                        
+                        .grey {
+                            color: grey;
+                        }
+                        
+                        .price {
+                            margin-top: 40px;
+                            font-size: 25px;
+                            letter-spacing: 1px;
+                            color: honeydew;
+                        }
+                        
+                        .colo {
+                            color: honeydew;
+                        }
+                        
+                        .table1 {
+                            width: 50%;
+                            margin-right: 50px;
+                            background-color: white;
+                        }
+                        
+                        .table00 {
+                            width: 50%;
+                            margin-right: 20px;
+                            background-color: white;
+                        }
+                        
+                        .charts {
+                            padding-top: 40px;
+                            padding-bottom: 40px;
+                            height: 100px;
+                            background-color: grey;
+                            text-align: center;
+                            opacity: 0.60;
+                        }
+                        
+                        .web {
+                            text-align: center;
+                            border: 1px solid lightgrey;
+                            background-color: whitesmoke;
+                            color: black;
+                            align-items: center;
+                            padding: 25px;
+                            font-size: 17px;
+                        }
+                        
+                        .if {
+                            margin-top: 50px;
+                            display: flex;
+                            justify-content: space-around;
+                        }
+                        
+                        .most {
+                            color: grey;
+                        }
+                        
+                        .degree {
+                            border: none;
+                            width: 100px;
+                            height: 50px;
+                            font-size: 17px;
+                        }
+                        
+                        .degree:hover {
+                            background-color: black;
+                            color: blanchedalmond;
+                        }
+                        
+                        .table00:hover {
+                            opacity: 0.5;
+                            background-color: white;
+                        }
+                        
+                        .table1:hover {
+                            opacity: 0.5;
+                            background-color: white;
+                        }
+                        
+                        .my {
+                            margin-top: 50px;
+                        }
+                        
+                        .insta {
+                            margin-top: 30px;
+                        }
+                        
+                        .part {
+                            margin-top: 16px;
+                            float: right;
+                            margin-right: 63%;
+                            font-size: medium;
+                            color: #616161;
+                        }
+                        
+                        .repot {
+                            width: 9%;
+                            height: 14%;
+                            border-radius: 100%;
+                        }
+                        
+                        .social {
+                            margin-top: 30px;
+                        }
+                        
+                        .round {
+                            margin-top: 16px;
+                            float: right;
+                            margin-right: 65%;
+                            font-size: medium;
+                            color: #616161;
+                            font-size: 18px;
+                        }
+                        
+                        .repot22 {
+                            width: 9%;
+                            height: 14%;
+                            border-radius: 100%;
+                        }
+                        
+                        .rabeca {
+                            margin-top: 50px;
+                            letter-spacing: 2px;
+                            color: honeydew;
+                        }
+                        
+                        .horo {
+                            margin-top: 20px;
+                            width: 15%;
+                        }
+                        
+                        .half {
+                            display: flex;
+                            justify-content: space-around;
+                            width: 100%;
+                            margin-top: 50px;
+                        }
+                        
+                        .half-pic {
+                            display: flex;
+                            flex-direction: column;
+                            width: 100%
+                            /* overflow: hidden; */
+                        }
+                        
+                        .wedding {
+                            object-fit: contain;
+                            width: 95%;
+                            margin: 3px;
+                        }
+                        
+                        .final {
+                            width: 100%;
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        
+                        .meco {
+                            margin-top: 60px;
+                            letter-spacing: 1px;
+                            color: honeydew;
+                        }
+                        
+                        .rawo {
+                            color: #616161;
+                            width: 20%;
+                            margin-top: 20px;
+                        }
+                        
+                        .locate {
+                            color: #616161;
+                            font-size: 15px;
+                        }
+                        
+                        .star {
+                            font-size: 25px;
+                            padding: 10px;
+                            color: whitesmoke;
+                        }
+                        /* .layout {
+                            margin-top: 30px;
+                        } */
+                        
+                        .direct {
+                            width: 90%;
+                            height: 55px;
+                            padding: 10px;
+                        }
+                        
+                        .how {
+                            width: 17%;
+                            height: 45px;
+                            font-size: 16px;
+                        }
+                        
+                        .how:hover {
+                            background-color: gray;
+                        }
+                        
+                        .iconss {
+                            margin-top: 80px;
+                            color: gray;
+                        }
+                        
+                        .abc20:hover {
+                            opacity: 0.50;
+                        }
+                        
+                        .abc40:hover {
+                            opacity: 0.50;
+                        }
+                        
+                        .abc60:hover {
+                            opacity: 0.50;
+                        }
+                        
+                        .abc80:hover {
+                            opacity: 0.50;
+                        }
+                        
+                        .abc100:hover {
+                            opacity: 0.50;
+                        }
+                        
+                        .abc120:hover {
+                            opacity: 0.50;
+                        }
+                        
+                        .okh {
+                            margin-top: 20px;
+                            color: gray;
+                            display: flex;
+                            flex-direction: row;
+                            font-size: 15px;
+                        }
+                        
+                        .green:hover {
+                            color: green;
+                        }
